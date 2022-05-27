@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'library-app';
+  value=2;
+ngOnInit (){
+for (let i=0; 63>i;i++){
+this.value=this.value+this.value;
+console.log(this.value );
+}
+}
 }
